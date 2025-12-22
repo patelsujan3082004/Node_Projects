@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-dark .btn-signup {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+#navbarNav{
+    margin-left: 10px;
+}
+.navbar-nav{
+    gap: 10px;
+}
+.container{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 100px);
+    background-color: #000;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.ride-form {
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 40%;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.hero-image img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+section.drive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.drive-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s cubic-bezier(.25,.8,.25,1);
+}
+.drive-image img:hover {
+    transform: scale(1.05);
+}
+
+.drive-content {
+    max-width: 500px;
+}
+
+.drive-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.drive-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+
+
+
+.promo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* padding: 20px; */
+    padding: 50px;
+}
+.promo-image img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s cubic-bezier(.25,.8,.25,1);
+}
+.promo-image img:hover {
+    transform: scale(1.05);
+}
+.promo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.promo-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.promo-text p {
+    font-size: 1rem;
+    color: #666;
+}
+.promo-text .btn {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.promo-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.promo-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.promo-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.promo-text p {
+    font-size: 1rem;
+    color: #666;
+}
+.promo-text .btn {
+    margin-top: 20px;
+}
+.promo-text .link {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: underline;
+}
+
+
+
+
+.promo-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.promo-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.promo-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.promo-text p {
+    font-size: 1rem;
+    color: #666;
+}
+.promo-text .btn {
+    margin-top: 20px;
+}
+
+
+
+
+.download-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.download-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.download-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+.download-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transform: translateY(-8px) scale(1.03);
+}
+.download-card img {
+    width: 100px;
+    height: 100px;
+}
+.download-info {
+    margin-left: 20px;
+}
+.download-info h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.download-info p {
+    margin: 0;
+    color: #666;
+}
+.arrow {
+    font-size: 1.5rem;
+    margin-left: auto;
+    color: #000;
+}
+
+
+
+
+
+
+.footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+.footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #ccc;
+}
+.footer .app-links img {
+    height: 40px;
+    margin-right: 10px;
+}
+.footer-bottom {
+    font-size: 14px;
+    color: white;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+#footer{
+    background-color: #000;
+}
+
+/* --- UI Animations Added Below --- */
+
+/* 1. Button Hover Animation */
+button[type="submit"] {
+    /* ...existing styles... */
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* 2. Card Hover Animation */
+.download-card {
+    /* ...existing styles... */
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+.download-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transform: translateY(-8px) scale(1.03);
+}
+
+/* 3. Image Zoom on Hover */
+.promo-image img, .drive-image img {
+    transition: transform 0.4s cubic-bezier(.25,.8,.25,1);
+}
+.promo-image img:hover, .drive-image img:hover {
+    transform: scale(1.05);
+}
+
+/* 4. Navbar Underline Animation */
+.navbar-dark .nav-link {
+    position: relative;
+    transition: color 0.3s;
+}
+.navbar-dark .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+.navbar-dark .nav-link:hover::after {
+    width: 100%;
+}
+
+/* 5. Fade-in Section Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.section-animate {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
