@@ -1,0 +1,116 @@
+/* Wrapper */
+.dashboard-wrapper {
+  padding: 30px;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Header */
+.dashboard-top h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.dashboard-top p {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+/* ===== Stats Layout ===== */
+.stats-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.stat-modern {
+  border-radius: 22px;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.stat-modern:hover {
+  transform: translateY(-5px);
+}
+
+.stat-modern .icon {
+  font-size: 30px;
+}
+
+.stat-modern h3 {
+  font-size: 34px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.stat-modern p {
+  margin: 0;
+  color: rgba(255,255,255,0.75);
+}
+
+/* Gradient cards */
+.stat-modern.blue {
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
+
+.stat-modern.green {
+  background: linear-gradient(135deg, #16a34a, #14532d);
+}
+
+/* ===== Recent Section ===== */
+.recent-layout {
+  background: #020617;
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.7);
+}
+
+.recent-layout h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modern-table th {
+  text-align: left;
+  font-size: 13px;
+  color: #94a3b8;
+  padding-bottom: 14px;
+}
+
+.modern-table td {
+  padding: 14px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.modern-table tbody tr:hover {
+  background: rgba(255,255,255,0.04);
+}
+
+/* Category pill */
+.category-pill {
+  background: rgba(59,130,246,0.15);
+  color: #93c5fd;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-wrapper {
+    padding: 20px;
+  }
+}
